@@ -66,55 +66,59 @@ Now it’s time to program the components we have added.
 
 - Your final code should be as following: (Images will be added)
 
-##Programming: (Code is Provided in this GitHub Repo)
+<h1>Programming: (Code is Provided in this GitHub Repo)</h1>
 
-We are done now with our mobile app :D let’s start programing our junkbot Board. Note: you can copy the full program from the code part.
+<p>We are done now with our mobile app :D let’s start programing our junkbot Board. Note: you can copy the full program from the code part.</p>
 
-- If you have Arduino IDE installed in your computer you can use it to write the code. Otherwise, go to junkbot software drag “Arduino program” from “Robot”, click on it then click on “Edit with Arduino IDE”.
+<p>If you have Arduino IDE installed in your computer you can use it to write the code. Otherwise, go to junkbot software drag “Arduino program” from “Robot”, click on it then click on “Edit with Arduino IDE”.</p>
 
-- Now let’s start writing the code. First, we set four integer variables for the motors pin number and one more for the data received from the mobile app via Bluetooth.
+<p>Now let’s start writing the code. First, we set four integer variables for the motors pin number and one more for the data received from the mobile app via Bluetooth.</p>
 
-- Then, in void setup we set these pins as output pins. And we initialize serial communication at 115200 bits per second which is the default rate for Junkbot board Bluetooth model
+<p>Then, in void setup we set these pins as output pins. And we initialize serial communication at 115200 bits per second which is the default rate for Junkbot board Bluetooth model</p>
 
-- After that, in void loop we check if we are receiving data from Bluetooth, and assigning these data to the variable “state” which we initialized earlier.
+<p>After that, in void loop we check if we are receiving data from Bluetooth, and assigning these data to the variable “state” which we initialized earlier.</p>
 
-- Then the last part on our code is to control the motion of the motors according to the letter received from the app via Bluetooth.   
+<p>Then the last part on our code is to control the motion of the motors according to the letter received from the app via Bluetooth.</p>
 
-##Uploading the Code:
+<h2>Uploading the Code:</h2>
 
-After we have finished writing the code, we have to upload it to Junkbot board. Go to tools--> board -->  “Arduino Nano” and then change the “port” to the Available one.
+<p>After we have finished writing the code, we have to upload it to Junkbot board. Go to tools--&gt; board --&gt; “Arduino Nano” and then change the “port” to the Available one.</p>
 
-"Upload the code"
+<p>"Upload the code"</p>
 
-##Connecting The App With The Board:
+<h2>Connecting The App With The Board:</h2>
 
-We are done now with the app and the code lets connect them together!
+<p>We are done now with the app and the code lets connect them together!</p>
 
-- Put the board switch on the Bluetooth mode 
+<p>Put the board switch on the Bluetooth mode</p>
 
--  Open the Bluetooth from your mobile settings
+<p>Open the Bluetooth from your mobile settings</p>
 
-- Scan for the Available devices. The name of junkbot board Bluetooth model is “HMSoft”. Find it and pair your phone with it.  
+<p>Scan for the Available devices. The name of junkbot board Bluetooth model is “HMSoft”. Find it and pair your phone with it.</p>
 
-- Install “MIT AI2 Companion” app from your play store
+<p>Install “MIT AI2 Companion” app from your play store</p>
 
-- Go to the app you have built on the web, then from The menu bar  go to -->Connect --> AI Companion 
+<p>Go to the app you have built on the web, then from The menu bar go to --&gt;Connect --&gt; AI Companion</p>
 
-- You will get a code, scan it from your mobile app  
+<p>You will get a code, scan it from your mobile app</p>
 
-- The same screen that we have designed earlies will show up. Connect, select “HMSoft”, control your Robot!! 
+<p>The same screen that we have designed earlies will show up. Connect, select “HMSoft”, control your Robot!!</p>
 
-Features
+<h2>Features</h2>
 
-The Bluetooth Controlled Robot will have the following features:
+<p>The Bluetooth Controlled Robot will have the following features:</p>
 
-    Control the movement of the robot using the mobile application
-    Intuitive user interface for easy control
-    The robot can be programmed to perform various tasks
-    Can be controlled from a distance using Bluetooth technology
+<ul>
+<li>Control the movement of the robot using the mobile application</li>
+<li>Intuitive user interface for easy control</li>
+<li>The robot can be programmed to perform various tasks</li>
+<li>Can be controlled from a distance using Bluetooth technology</li>
+</ul>
 
-##Contributions
-I welcome contributions to this project. If you have any suggestions, bug reports, or feature requests, please feel free to open an issue or submit a pull request. I will be happy to review your contributions.
-License
+<h2>Contributions</h2>
 
-##This project is licensed under the MIT License. See the LICENSE file for more information.
+<p>I welcome contributions to this project. If you have any suggestions, bug reports, or feature requests, please feel free to open an issue or submit a pull request. I will be happy to review your contributions.</p>
+
+<h2>License</h2>
+
+<p>This project is licensed under the MIT License. See the LICENSE file for more information.</p>
